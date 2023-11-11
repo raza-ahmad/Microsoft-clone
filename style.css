@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+   background-color: #dadada;
+}
+
+.log{
+    background-color: #fff;
+    width:35%;
+    margin: 0 auto;
+margin-top: 40px;
+    padding: 35px;
+    
+}
+h1{
+    font-size: 24px;
+    color: #1b1b1b;
+    font-weight: 550;
+    margin-top: 14px;
+}
+input{
+    width: 100%;
+    padding: 7px 8px;
+    border: none;
+    border-bottom: 1px solid rgb(67, 67, 155);
+}
+.create{
+    margin-top: 14px;
+}
+.create p{
+    font-size: 13px;
+}
+.create a{
+    font-size: 13px;
+    color: #0067b8;
+}
+.sign a{
+  color: #0067b8;
+  font-size: 14px;
+  text-decoration: none;
+}
+.sign{
+    gap: 6px;
+}
+.button{
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+  justify-content: end;
+}
+.btn{
+    width: 108px;
+    
+   
+    padding: 4px 2px;
+   
+    
+}
+.item{
+    background-color: #fff;
+        width: 35%;
+        margin: 0 auto;
+        margin-top:40px;
+        padding: 7px;
+        padding-left: 30px;
+}
+.item:hover{
+   
+    box-shadow: 2px 5px #928989;
+    background-color: #a7b5c0;
+}
+.item img{
+    width: 30px;
+}
+.item span a{
+    text-decoration: none;
+    color: #1b1b1b;
+    font-weight: 400;
+}
+@media only screen and (max-width: 800px){
+    .log{
+     width: 100%;
+     margin-top: 0;
+   
+    }
+    .item{
+        width: 100%;
+    }
+}
